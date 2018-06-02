@@ -173,7 +173,7 @@ namespace HCalc.ExpressionHelper
 
                 var numStartIndex = 19 - count;
 
-                var startPose = everyNumber + numStartIndex;
+                var startPose = everyNumber + (numStartIndex++);
 
                 unsignedDecNumber += (*startPose);
 
@@ -185,7 +185,7 @@ namespace HCalc.ExpressionHelper
                     for (int j = 1; numStartIndex < 19; j++, numStartIndex++)
                     {
                         var temp = *(startPose + j);
-                        var value = temp * pow[j];
+                        var value = temp * (*(pow + j));
                         if (j == 18 && 19 == count && maxValue - unsignedDecNumber < value)
                         {
                             return -1;

@@ -6,7 +6,7 @@ Features:
 * Converting between byte array and string.
 * Portable.
  
-[Download](https://github.com/differentrain/HCalc/releases/download/v1.0.0.0/HCalc.zip)
+[Download](https://github.com/differentrain/HCalc/releases/download/v1.0.0.1/HCalc1.0.0.1.zip)
  
 ## How to use HCalc
 
@@ -57,7 +57,7 @@ HCalc 是一个面向程序员或逆向人员的计算器。
 * 字节数组与字符串之间的转换。
 * 便携。
 
-[下载](https://github.com/differentrain/HCalc/releases/download/v1.0.0.0/HCalc.zip)
+[下载](https://github.com/differentrain/HCalc/releases/download/v1.0.0.1/HCalc1.0.0.1.zip)
 
 ## 使用方法
 

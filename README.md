@@ -43,6 +43,10 @@ Now the CodePage menu has these options: ascii, unicode, GB2312, big5, shift-JIS
 
 Tips: Press `F1` or `F2` to quick-add prefix.
 
+### Copying Result
+
+Left click any result box that is used to copy it's text content to clipboard.
+ 
 ## About source code
 
 I wrote this gadget in C# 7.2, Visual studio 2017, nothing else to say. By the way, the readability and renormalization is sacrificed for performance, if you feel hard to read these code, debug it.
@@ -95,6 +99,10 @@ HCalc将把以 "b:" 前缀开始的表达式视为字节数组，例如 "0b:FF F
 目前代码页菜单包括以下选项: ascii, unicode, GB2312, big5, shift-JIS, 以及 windows 1250. 如果需要更多选项, 联系我或自行修改代码。
  
 提示 ：按 `F1` 或 `F2` 可以快速输入前缀。
+
+### 复制结果
+ 
+左键单击任何需要的结果框，即可将其文本内容复制到剪切板。
   
 ## 关于源码
  
